@@ -1,0 +1,30 @@
+{
+    "name": "paulinhoajr/teste",
+    "description": "teste",
+    "license": "",
+    "authors": [
+        {
+            "name": "teste",
+            "email": "teste@phpunit.de"
+        }
+    ],
+    "prefer-stable": true,
+    "config": {
+        "platform": {
+            "php": "7.3.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
